@@ -1,1 +1,5 @@
-name : Izma
+security:
+  basic:
+    enabled: false
+ 
+ name : Izma
