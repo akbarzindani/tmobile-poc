@@ -26,4 +26,4 @@ legacy:
  loan:
   create:
     event:
-     listener: false
+     listener: true
