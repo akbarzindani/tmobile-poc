@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: billing-account-service
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost:3306/billing
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+logging:
+  level:
+    root: INFO
+    org.springframework.web: ERROR
+    org.hibernate: ERROR
+account.queue.name: billing.account.queue
+account.update.queue.name: billing.account.update.queue
+
+  
+security: 
+  user:
+    password: admin
+    name: admin
+    role:
+    - ADMIN
