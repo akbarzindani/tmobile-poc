@@ -16,8 +16,7 @@ logging:
     org.hibernate: ERROR
 account.queue.name: billing.account.queue
 account.update.queue.name: billing.account.update.queue
-
-  
+val: Hello World 
 security: 
   user:
     password: admin
